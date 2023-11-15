@@ -1,0 +1,465 @@
+*{
+    margin:0;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    box-sizing: border-box;
+}
+.clearfix::after {
+    content: '';
+    display: table;
+    clear:both;
+}
+
+.top {
+    background-color: #d92119;
+    height: 50px;
+    color: #fff;
+    line-height: 16px;
+    cursor: text;
+}
+.top_holder {
+    position: relative;
+    margin: auto;
+    width: 70%;
+    /* font-size: 8px;
+    font-weight:100; */
+    font: 200 13px / 18px Syne, sans-serif;
+}
+.top_holder_1 {
+
+    position: relative;
+    width: auto;
+    float: left;
+    padding: 15px;
+}
+
+.navbar1 {  
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #fff;
+  height: 100px;
+    top:0%;
+    bottom: 0%;
+  }
+  
+  
+.navbar{
+    width: 85%;
+    margin: auto;
+    height: inherit;
+
+}
+  .navbarside {
+    flex: 30%;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .navbarmain {
+    flex: 70%;
+    padding: 20px;
+  }
+
+.navbar a{
+    text-decoration: none;
+    color: rgb(148, 145, 145);
+    font-size: small; 
+}  
+/* Drop down menu defined */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    top:20px;
+  }
+
+  .nobtn {
+    position: relative;
+    display: inline-block;
+    top:20px;
+    font-size: 16px;
+  }
+.dropbtn {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  } 
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    background-color: #fff;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    border-left-style: solid;
+    border-left-color:red;
+    border-bottom-style: solid ;
+    padding: 10px;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:#fff;
+  }
+  /* End of drop down menu defined */
+
+  /* Beginning of Image Slider Div Section */
+  .imgslider{
+    /* background-image:url(img/slide3a.png);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: #000;
+    position: relative;
+    margin-top: 20px;
+  }
+
+  .imgslider img{
+    width: 100%;
+    height: auto;
+    opacity: 0.5;
+  }
+
+  .imgsliderempt{
+    width: 100%;
+  height: 200px;
+  }
+
+   .select p{
+    text-align: center;
+    color:#fff;
+     text-align: center;
+     position: absolute;
+     top: 30%;
+     bottom: 0;
+     left:0;
+     font-weight: bold;
+     right:0;
+     font-size: 70px;
+  }
+   .set p{
+    text-align: center;
+    color:#fff;
+     text-align: center;
+     position: absolute;
+     top:42%;
+     bottom: 0;
+     left:0;
+     right:0;
+     font-size: 90px;
+     font-weight:lighter;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+
+   .button{
+      position:absolute;
+      top:65%;
+      left:43%;
+      padding:10px 55px;
+       font-size:15px;
+       border:1px solid white;
+      font-weight:200;
+      color:white;
+   }
+
+   /* End of Image Slider section */
+   /* Beginning of Mid container section */
+.midcontainer {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.midcontainercontent h2{
+  font-size: 20px;
+  color: #706d69;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.butmid {
+  background-color: #000;
+  width: 100px;
+  padding: 10px;
+  color: #fff;
+}
+
+.midcontainercontent{
+  display: flex;
+  flex-wrap: wrap;
+  height:500px;
+}
+
+.leftcol {
+  flex: 55%;
+  padding:20px;
+ 
+}
+
+ 
+/* Styling of the LeftCol */
+.leftcol1 img {
+  border: 10px solid #dddddd;
+}
+
+.leftcol1 {
+  background-color:#f7f7f7;
+  padding: 20px;
+  width: inherit;
+}
+
+.l_col1 {
+  width: 30%;
+  float: left;
+  height: 200px;
+}
+
+.l_col2 {
+  width: 70%;
+  height: 200px ;
+  display: inline-block;
+  padding: 10px; 
+}
+
+.l_col2 p {
+  font-size: 15px;
+  color: darkgrey;
+  line-height: 20px;
+}
+
+.l_col2button {
+  width: 100px;
+  background-color: #d92119;
+  padding: 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.l_col2about {
+  width: 65%;
+  height: 200px ;
+  display: inline-block;
+  padding-left:110px;
+ 
+}
+.l_col2about p {
+  font-size: 15px;
+  color: darkgrey;
+  line-height: 20px;
+  text-align: justify;
+}
+
+
+/* Flex Image Section */
+.fleximg {
+  display:flex;
+  flex-wrap: wrap;
+  height: 600px;
+}
+
+.fleximg1 {
+  flex: 35%;
+  background-color: #000;
+  align-items: center;
+  height: 500px;
+
+}
+.fleximg1 img {
+  width: auto;
+  height: 400px;
+  margin-top: 50px;  
+}
+
+.fleximg2 {
+  flex: 50%;
+  margin-left: 5px;
+}
+
+.fleximg2 > div {
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin: 2px;
+ background-color: #000;
+}
+
+.fleximg2 img {
+  width: 150px;
+  height: 150px;
+  margin-top: 23px;
+}
+
+/* Styling the Right Section (Right col) */
+.rightcol {
+  flex: 35px;
+  padding:20px;
+  margin-left:1%;
+ 
+}
+
+.redsec {
+  background-color: #d92119;
+  width: 250px;
+  height:220px;
+  padding:8px 15px;
+  top:0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.redsec p {
+  color: #fff;
+  font-size: 15px;
+  margin-top:20px;
+  line-height: 24px;
+  
+}
+.redsec > hr {
+  color: #fff;
+  margin-top:10px;
+}
+
+.placeholder {
+  background-color:#f7f7f7;
+  padding:10px;
+  width: inherit;
+  margin-top: 10px;
+}
+
+.placeholder>li {
+  top:50px;
+  line-height: 50px;
+}
+
+.placespacing {
+  height: 40px;
+  margin-bottom: 31px;
+  margin-top: 31px;
+}
+
+/* Styling the Right Section (Right col) ends here */
+
+/* newsletter and email section */
+
+.subscribe {
+  width:100%;
+  height: 100px;
+  padding: 20px;
+  background-color: #d92119;
+  margin-top: 960px; /* This is wrong but I will fix it later.*/
+}
+.subscribe1 {
+  width: 82%;
+  margin: auto;
+  height: 70px;
+  position: relative;
+}
+
+.sub_holder {
+  width: 38%;
+  height: inherit;
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 5px;  
+}
+.sub_holder p{
+  font-size: 15px;
+  color: #f7f7f7;
+}
+.sub_holder h3{
+  font-size: 15px;
+  color: #f7f7f7;
+}
+
+.sub_holder1 {
+  width: 20%;
+  height: inherit;
+  float: left;
+  padding: 10px;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.sub_holder1 p{
+  font-size: 15px;
+  color: #f7f7f7;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  width: 85%;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+}
+.footer > div {
+  flex: 23%;
+  margin-left: 20px;
+  padding: 10px;
+
+
+}
+
+.firstframe {
+  display: inline-block;
+  width: 10%;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+.secondframe {
+  display: inline-block;
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+}
+.latestnews1 {
+  display: inline-block;
+  width: 30%;
+  margin-right:1px;
+  margin-top: 10px;
+}
+.latestnews2 {
+  display: inline-block;
+  width: 65%;
+  padding:5px;
+  margin-left: -25px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.txtcen {
+  position: relative;
+  bottom: 8px;
+}
+
+.copyright {
+  background-color: #000;
+  width:100%;
+  height: 50px;
+  display: flex;
+}
+
+.copyright>div {
+  width: 32%;
+  padding: 20px;
+  margin: auto;
+  position: relative;
+  color: #fff;
+  
+}
