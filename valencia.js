@@ -1,0 +1,1 @@
+document.getElementById('val').innerHTML="Welcome & Greetings!";
